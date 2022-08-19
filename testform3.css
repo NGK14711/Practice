@@ -1,0 +1,101 @@
+form{
+    width:50%;
+    padding:1.25% 12.5%;
+    border:5px solid green;
+    margin:1.25% 12.5%;
+    height:auto;
+}
+li {  
+    color:white;
+    text-align:center;
+    display: inline-block;
+    width: 18%;
+    cursor: pointer;
+    border-radius: 18px;
+}
+a{
+    color:grey;
+font-size: 30px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    padding: 10px;
+    margin: 10px;
+}
+a:hover{
+    color: wheat;
+    background-color: black;
+    font: 38px;
+    border-radius: 15px;
+
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    border: 5px solid green;
+}
+body {
+    background-color: burlywood;
+}
+div{
+    text-align: center;
+    margin: 0px 8px 5px 10px;
+   
+}
+input[type=text] {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+}
+input[type=button],input[type=date] {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+}
+div label{
+    padding: 10px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 32px;
+    color: blueviolet;
+    border-radius: 15px;
+}
+input[type=text]:hover,input[type=button]:hover,input[type=date]:hover{
+    color: wheat;
+    background-color: black;
+    font: 38px;
+    border-radius: 20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+   
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    position: absolute;
+}
+.dropdown-content li{
+    text-decoration: none;
+    display: block;
+    border: none;
+}
+input[type=button]{
+    cursor: pointer;
+    margin: 60px;
+    padding: 25px 40px;
+    display: inline-block;
+    border-radius: 20px;
+}
+input[type=date]{
+    cursor: pointer;
+}body{
+    background-image: url(atumn.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-size: cover; 
+}
