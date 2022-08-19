@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICE</title>
+    <link rel="stylesheet" type="text/css" href="practice.css">
+    <script src="practice.js"></script>
+</head>
+<body>
+    <table>
+        <div>
+    <tr><th colspan="2">Mathematical operation</th></tr>
+
+    <tr>
+      <td><label>value1</label></td>
+      <td>
+    <span>
+        <input type="number" id="value1" placeholder="input box 1" onkeyup="myFun1()">
+    </span>
+    </tr>
+    <tr>
+        <td><label>value2</label></td>
+        <td>
+         <span>   
+            <input type="number" id="value2" placeholder="input box 2"onkeyup="myFun2()">
+        </span>   
+     </tr>
+     <tr >
+        <td><label>value3</label></td>
+        <span>
+       <th><p id="sum"></p></th>
+       </span>
+     </tr> 
+
+        <tr>
+            <td><button onclick="funAdd()" id="add">button 2(add)</button></td>
+            <td><button onclick="funSub()" id="sub">button 3(sub)</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="funMut()" id="mut">button 4(mut)</button></td>
+            <td><button onclick="funDiv()" id="div">button 5(div)</button></td>
+        </tr>
+        <tr>
+            <td colspan="2" ><button onclick="funClear()" id="clear">button 1(clear)</button></td>
+        </tr>
+    </div>
+</table>
+</body>
+</html>
