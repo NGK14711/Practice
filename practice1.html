@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <header>WELCOME TO GAME ZONE</header>
+    <link rel="stylesheet" type="text/css" href="practice1.css">
+    <script src="practice1.js"></script>
+</head>
+<body>
+    <div>
+        <label>USER NAME :</label>
+        <input type="text" id="username" placeholder="enter your email i'd" onkeyup="fun1()" required>
+    </div>
+    <div>
+        <label>PASSWORD :</label>
+        <input type="password" id="password" placeholder="enter your password" onkeyup="fun2()" required> 
+        <div>
+            <p id="error" style="display: none;">your username or password is incorrect</p>
+        </div>
+    </div>
+    <div id="button">
+        <button class="login" onclick="fun()">
+        <a href="https://www.aditiconsulting.com/" target="_blank"></a>LOGIN</button>
+        <button class="reset" onclick="reset()">RESET</button>
+    </div>
+</body>
+</html>
