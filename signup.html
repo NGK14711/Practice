@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in and sign-up</title>
+    <header>WELCOME TO GAME ZONE</header>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <script src="signup.js"></script>
+</head>
+
+<body>
+    <span id="button">
+        <button class="signin" onclick="btsignin()">signin</button>
+        <button class="signup" onclick="btsignup()">signup</button>
+    </span>
+    <div id="signindetails">
+        <div>
+            <label>USER NAME :</label>
+            <input type="text" id="username" placeholder="enter your email i'd" onkeyup="fun1()">
+        </div>
+        <div>
+            <label>PASSWORD :</label>
+            <input type="password" id="password" placeholder="enter your password" onkeyup="fun2()">
+            <div>
+                <p id="error" style="display: none;">your username or password is incorrect</p>
+            </div>
+        </div>
+        <div id="button">
+            <button class="login" onclick="fun()">
+                <a href="https://www.aditiconsulting.com/" target="_blank"></a>LOGIN</button>
+            <button class="reset" onclick="reset()">RESET</button>
+        </div>
+    </div>
+
+
+    <div id="signupdetails">
+        <div>
+            <div>
+                <label>FIRST NAME :</label>
+                <input type="text" id="firstname" placeholder="enter your first name" onkeyup="funfirst()">
+            </div>
+            <div>
+                <label>LAST NAME :</label>
+                <input type="text" id="lastname" placeholder="enter your last name" onkeyup="funlast()">
+            </div>
+        </div>
+
+        <div>
+            <label>EMAIL :</label>
+            <input type="email" id="email" placeholder="enter your Email" onkeyup="funemail()">
+        </div>
+        <div>
+            <label>PASSWORD :</label>
+            <input type="password" id="pass" placeholder="enter your password" onkeyup="funpass()">
+        </div>
+        <div>
+            <label>DOB :</label>
+            <input type="date" id="dob" onblur="fundob()">
+        </div>
+        <div id="button">
+            <button class="submit" onclick="submit()">SUBMIT</button>
+        </div>
+    </div>
+</body>
+
+</html>

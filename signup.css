@@ -1,0 +1,104 @@
+*{
+    background-color: blanchedalmond;
+}
+body{
+    text-align: center;
+    margin-top: 80px;
+}
+header{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+#username, #password{
+    margin:20px 130px 30px 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 20%;
+}
+#button{
+    margin:10px 80px 10px 30px ;
+    padding:10px 16px;
+}
+.login{
+    margin-right: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+}
+.reset{
+    margin-left: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+}
+.submit{
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+}
+input[type="text"]::placeholder{
+    font-size: 20px;
+    line-height: 1.5; 
+}
+p{
+    font-size: 20px;
+    color: red;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signin{
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 140px;
+}
+.signup{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 140px;
+}
+#signupdetails{
+    display: none;
+    position: relative;
+    text-align: center;
+}
+#signindetails{
+    display: none;
+    position: relative;
+}#firstname, #lastname, #pass{
+    margin:5px 130px 20px 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 20%;
+}
+#email{
+    margin:5px 130px 20px 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 20%;
+}
+#dob{
+    margin:5px 130px 20px 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 20%;
+}
+label{
+    width: 140px;
+    display: inline-block;
+    margin: 0.2cm;
+    font-weight: bold;
+    font-size: 16px;
+}
